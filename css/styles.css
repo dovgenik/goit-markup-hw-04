@@ -1,0 +1,357 @@
+/* #region body */
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: #434455;
+    background-color: #FFFFFF;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+}
+
+.container {
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+/* #endregion body */
+
+/* #region header */
+.header-class {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.nav-header {
+    display: flex;
+    align-items: center;
+}
+
+.list-nav {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.connect-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
+
+.logo-two {
+    color: #2E2F42;
+}
+
+.header-logo {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin-right: 76px;
+}
+
+.list-nav-link {
+    display: block;
+    color: #2E2F42;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.connect {
+    font-style: normal;
+    margin-left: auto;
+}
+
+.connect-list-link {
+    display: block;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.list-nav-link:hover,
+.list-nav-link:focus,
+.connect-list-link:hover,
+.connect-list-link:focus {
+    color: #404BBF;
+}
+
+/* #endregion header */
+
+/* #region BLOCK ONE *********************************/
+
+.solutions {
+    background-color: #2E2F42;
+    padding-top: 188px;
+    padding-bottom: 188px;
+}
+
+.solutions-text {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #FFFFFF;
+    max-width: 496px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 48px;
+}
+
+.solutions-button {
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    background: #4D5AE5;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.solutions-button:hover,
+.solutions-button:focus {
+    background-color: #404BBF;
+}
+
+/* #endregion BLOCK ONE *********************************/
+
+/*#region BLOCK TWO *********************************/
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.section-two {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.list-foundations {
+    display: flex;
+    gap: 24px;
+}
+
+.foundations-item {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 8px;
+    flex-basis: calc((100% - 72px) / 4);
+}
+
+
+.foundations-name {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #2E2F42;
+    margin-bottom: 8px;
+}
+
+.foundations-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #434455;
+}
+
+/* #endregion BLOCK TWO *********************************/
+
+/* #region BLOCK OUR TEAM *********************************/
+.our-team {
+    background-color: #F4F4FD;
+}
+.our-team  {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.our-team-header {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    color: #2E2F42;
+    margin-bottom: 72px; 
+}
+
+.our-team-list {
+    display: flex;
+    gap: 24px;
+    background-color: #FFFFFF;
+}
+
+.our-team-item {
+    background-color: #FFFFFF;
+    flex-basis: calc((100% - 72px) / 4));
+    border-radius: 0px 0px 4px 4px; 
+}
+.our-team-footer{
+    padding: 32px 0;
+}
+.our-team-name {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2E2F42;
+    margin-bottom: 8px;
+
+}
+
+.our-team-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+/* #endregion BLOCK OUR TEAM *********************************/
+
+/* #region BLOCK OUR PORTFOLIO *********************************/
+.portfolio {
+    padding-top: 120px; 
+    padding-bottom: 120px; 
+}
+
+.portfolio-header {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2E2F42;
+    margin-bottom: 72px; 
+}
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px; 
+    row-gap: 48px;
+
+}
+.portfolio-item {
+    width: calc((100% - 48px) / 3); 
+}
+.portfolio-footer {
+    padding: 32px 16px ;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+
+}
+.portfolio-name {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #2E2F42;
+    margin-bottom: 8px;
+}
+
+.portfolio-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #434455;
+
+}
+
+/* #endregion BLOCK OUR PORTFOLIO *********************************/
+
+/* #region footer ************************************/
+.footer-class {
+    background-color: #2E2F42;
+    padding: 100px 0;
+}
+.footer-logo {
+    display: inline-block;
+    margin-bottom: 16px; 
+}
+.footer-logo .logo-two {
+    color: #F4F4FD;
+    
+}
+
+.footer-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #F4F4FD;
+    letter-spacing: 0.02em;
+}
+
+/* #endregion footer ************************************/
