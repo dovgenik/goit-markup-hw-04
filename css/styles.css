@@ -150,14 +150,15 @@ img {
             rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)),
         url(../images/solution/people-office.jpg);
-    background-repeat: no-repeat;
+    max-width: 1440px;
+        background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
+    /* background-size: contain; */
     background-color: #2E2F42;
     padding-top: 188px;
     padding-bottom: 188px;
-    /* max-width: 1440px;
-    background-size: cover; */
+    
 }
 
 .solutions-text {
@@ -407,7 +408,8 @@ img {
 
 .social-media-text {
     font-weight: 500;
-    line-height: 1.5 letter-spacing: 0.02em;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #ffffff;
     margin-bottom: 16px;
 }
@@ -430,7 +432,7 @@ img {
     height: 100%;
     background-color: #4d5ae5;
     border-radius: 50%;
-
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-media-list-link:hover,
