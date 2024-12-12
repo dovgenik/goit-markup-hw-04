@@ -151,14 +151,15 @@ img {
             rgba(46, 47, 66, 0.7)),
         url(../images/solution/people-office.jpg);
     max-width: 1440px;
-        background-repeat: no-repeat;
+    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     /* background-size: contain; */
     background-color: #2E2F42;
     padding-top: 188px;
     padding-bottom: 188px;
-    
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .solutions-text {
@@ -233,6 +234,18 @@ img {
     flex-basis: calc((100% - 72px) / 4);
 }
 
+.foundations-icon-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    width: 100%;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    background-color: #f4f4fd;
+    margin-bottom: 8px;
+   
+}
 
 .foundations-name {
     font-size: 20px;
